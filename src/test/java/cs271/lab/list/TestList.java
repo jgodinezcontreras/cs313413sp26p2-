@@ -17,7 +17,7 @@ public class TestList {
 
   @Before
   public void setUp() throws Exception {
-    list = new ArrayList<Integer>();
+    list = new ArrayList<>();
     //list = new LinkedList<Integer>();
       // TODO Question: Also try with a LinkedList - does it make any difference?
   }
