@@ -18,7 +18,8 @@ public class TestList {
   @Before
   public void setUp() throws Exception {
     list = new ArrayList<Integer>();
-    // TODO Question: Also try with a LinkedList - does it make any difference?
+    //list = new LinkedList<Integer>();
+      // TODO Question: Also try with a LinkedList - does it make any difference?
   }
 
   @After
@@ -41,7 +42,7 @@ public class TestList {
   public void testSizeNonEmpty() {
     // TODO fix the expected values in the assertions below
     list.add(77);
-    assertEquals(true, list.isEmpty());
+      assertTrue(list.isEmpty());
     assertEquals(0, list.size());
     assertEquals(0, list.get(0).intValue());
   }
